@@ -1,0 +1,10 @@
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - "cp -r academicons css font-awesome fonts img js index.html public/"
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
