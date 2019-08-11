@@ -490,3 +490,8 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+@media (max-width: 479px) {
+  h3 {
+    font-size: 18px;
+  }
+}
