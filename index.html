@@ -80,12 +80,25 @@
     <section class="success" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                <div class="col-lg-12 h-card">
+                    <img class="img-responsive u-photo" src="img/profile.png" alt="">
                     <div class="intro-text">
-                        <span class="name">Rémi Rampin</span>
-                        <span class="skills">Research Engineer - New York University</span>
+                        <span class="name p-name">Rémi Rampin</span>
+                        <span class="skills"><span class="p-job-title">Research Engineer</span> - <span class="p-org">New York University</span></span>
                         <hr class="star-light">
+                    </div>
+
+                    <!-- Microformat h-card markup -->
+                    <div style="display: none;">
+                        <span class="p-given-name">Rémi</span>
+                        <span class="p-family-name">Rampin</span>
+                        <span class="p-nickname">remram44</span>
+                        <span class="p-sort-string">Rampin, Remi</span>
+                        <a class="u-email" href="mailto:remi@rampin.org">e</a>
+                        <a class="u-key" href="https://remram.fr/remram.pub.asc">pgp</a>
+                        <span class="p-locality">Brooklyn</span>
+                        <abbr class="p-region" title="New York">NY</abbr>
+                        <span class="p-country-name">U.S.A.</span>
                     </div>
                 </div>
             </div>
